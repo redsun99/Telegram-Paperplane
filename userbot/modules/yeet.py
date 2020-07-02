@@ -1,5 +1,9 @@
-from userbot.events import register
 
+import asyncio
+import inspect
+import io
+
+from userbot.events import register
 
 @register(outgoing=True, pattern="^.yeet$")
 async def edit_iterator(event):
